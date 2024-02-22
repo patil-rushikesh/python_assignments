@@ -1,6 +1,6 @@
 def find_min(numbers):
     if not numbers:
-        return None  # Return None if the list is empty
+        return None  # the list is empty
     min_value = numbers[0]
     for num in numbers[1:]:
         if num < min_value:
@@ -9,7 +9,7 @@ def find_min(numbers):
 
 def find_max(numbers):
     if not numbers:
-        return None  # Return None if the list is empty
+        return None  # the list is empty
     max_value = numbers[0]
     for num in numbers[1:]:
         if num > max_value:
@@ -18,7 +18,7 @@ def find_max(numbers):
 
 def calculate_mean(numbers):
     if len(numbers) == 0:
-        return None  # Return None if the list is empty
+        return None  # the list is empty
     return sum(numbers) / len(numbers)
 
 def main():
