@@ -1,4 +1,1 @@
-This is python file, 
- python is very easy 
- python is readable 
- it is easy to understand
+Name: Rushikesh, Phone Number: 9850095413, Place: Pccoe
