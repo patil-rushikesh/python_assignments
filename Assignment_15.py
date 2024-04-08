@@ -1,5 +1,5 @@
 class Bank:
-    def __init__(self, name="Unknown", acc=0, type="None", bal=0):
+    def __init__(self, name="", acc=0, type="", bal=0):
         self.name = name
         self.acc = acc
         self.type = type
