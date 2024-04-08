@@ -2,7 +2,7 @@ from tabulate import tabulate
 
 def calc_emi(p, r, n, c):
     m_rate = r / 1200
-    emi = p * m_rate / (1 - 1 / (1 + m_rate) ** n)
+    emi = p * m_rate *((1+m_rate)**n)/ (((1+m_rate)**n)-1)
     
     print(f"EMI: {emi:.2f}\n")
     bal = p
