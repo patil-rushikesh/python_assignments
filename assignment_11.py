@@ -19,11 +19,15 @@ class Complex:
                        (self.imag * other.real - self.real * other.imag) / denominator)
 
     def print(self):
-        print(f'{self.real} + {self.imag}i')
+        print(f'{self.real:.2f} + {self.imag:.2f}i')
 
 if __name__ == "__main__":
-    a = Complex(10, 12)
-    b = Complex(4, 5)
+    x = int(input("Enter Real Part of first complex number : "))
+    y = int(input("Enter Imaginary Part of first complex number : "))
+    l = int(input("Enter Real Part of Second complex number : "))
+    m = int(input("Enter Imaginary Part of Second complex number : "))
+    a = Complex(x, y)
+    b = Complex(l, m)
     c = a + b
     c.print()
     c = a - b
